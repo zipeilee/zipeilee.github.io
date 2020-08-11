@@ -6,7 +6,7 @@
   <link href="https://github.com/zipeilee/atom.xml" rel="self"/>
   
   <link href="https://github.com/zipeilee/"/>
-  <updated>2020-08-11T10:56:11.178Z</updated>
+  <updated>2020-08-11T12:36:32.160Z</updated>
   <id>https://github.com/zipeilee/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://github.com/zipeilee/2020/08/11/gei-ke-yan-gong-zuo-zhe-men-de-jian-duan-python-ru-men-jiao-cheng/"/>
     <id>https://github.com/zipeilee/2020/08/11/gei-ke-yan-gong-zuo-zhe-men-de-jian-duan-python-ru-men-jiao-cheng/</id>
     <published>2020-08-11T10:53:05.000Z</published>
-    <updated>2020-08-11T10:56:11.178Z</updated>
+    <updated>2020-08-11T12:36:32.160Z</updated>
     
     
       
@@ -34,6 +34,10 @@
     
     
     
+    <category term="磕盐" scheme="https://github.com/zipeilee/categories/%E7%A3%95%E7%9B%90/"/>
+    
+    
+    <category term="-python -jupyter notebook" scheme="https://github.com/zipeilee/tags/python-jupyter-notebook/"/>
     
   </entry>
   
