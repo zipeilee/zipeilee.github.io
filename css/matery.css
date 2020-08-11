@@ -268,7 +268,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #e66465, #e9b179);
+    background-image: linear-gradient(to right, #f35697, #f348b2);
 }
 
 .text-color {
@@ -284,7 +284,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #e66465 0%, #e9b179 100%);
+    background: linear-gradient(to right, #f35697 0%, #f348b2 100%);
     opacity: 0.8;
 }
 
