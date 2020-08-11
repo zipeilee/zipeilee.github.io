@@ -269,7 +269,7 @@ mark {
 
 .bg-color {
     background-image: linear-gradient(to right, #56e1f3, #43bcf5);
-    opacity : 0.5;
+    opacity : 1;
 }
 
 .text-color {
