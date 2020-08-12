@@ -315,10 +315,6 @@ header .nav-transparent {
     box-shadow: none;
 }
 
-header .nav-transparent2 {
-    background-image: linear-gradient(to right, #660066 0%, #660066 100%);
-    opacity: 0;
-}
 
 header nav .brand-span {
     font-size: 1.45rem;
