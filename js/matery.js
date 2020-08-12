@@ -177,7 +177,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("headNav").style.top = "0";
   } else {
-    document.getElementById("headNav").style.top = "-60px";
+    document.getElementById("headNav").style.top = "-70px";
   }
   prevScrollpos = currentScrollPos;
 } 
