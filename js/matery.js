@@ -141,7 +141,7 @@ $(function () {
             $nav.addClass('nav-transparent');
             $backTop.slideUp(300);
         } else {
-            $nav.addClass('nav-transparent');
+            $nav.removeClass('nav-transparent');
             $backTop.slideDown(300);
         }
     }
@@ -170,3 +170,14 @@ $(function () {
     // 初始化加载 tooltipped.
     $('.tooltipped').tooltip();
 });
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("headNav").style.top = "0";
+  } else {
+    document.getElementById("headNav").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
