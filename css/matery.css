@@ -132,8 +132,8 @@ pre {
     top: 0;
     left: 12px;
     margin-top: 12px;
-    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
-    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #e252b2;
+    box-shadow: 20px 0 #ffbd2e, 40px 0 #e252b2;
 }
 
 code {
@@ -597,10 +597,10 @@ header .go-back i {
     height: 40vh !important;
 }
 
-.bg-cover:after {
+/*.bg-cover:after {
     -webkit-animation: rainbow 60s infinite;
     animation: rainbow 60s infinite;
-}
+}*/
 
 .bg-cover:before,
 .bg-cover:after {
@@ -1655,7 +1655,7 @@ thead {
 }
 
 .post-statis .statis .count a {
-    color: #42b983;
+    color: #e252b2;
 }
 
 .post-statis .statis .name {
