@@ -3,11 +3,11 @@
   <title>Avalon</title>
   
   <subtitle>遗世独立的理想乡</subtitle>
-  <link href="https://github.com/zipeilee/atom.xml" rel="self"/>
+  <link href="http://blog.exavalon.tk/atom.xml" rel="self"/>
   
-  <link href="https://github.com/zipeilee/"/>
+  <link href="http://blog.exavalon.tk/"/>
   <updated>2020-08-13T15:19:03.448Z</updated>
-  <id>https://github.com/zipeilee/</id>
+  <id>http://blog.exavalon.tk/</id>
   
   <author>
     <name>子佩</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>终于用回vscode写LaTeX了</title>
-    <link href="https://github.com/zipeilee/2020/08/13/yong-hui-vscode-xie-latex-liao/"/>
-    <id>https://github.com/zipeilee/2020/08/13/yong-hui-vscode-xie-latex-liao/</id>
+    <link href="http://blog.exavalon.tk/2020/08/13/yong-hui-vscode-xie-latex-liao/"/>
+    <id>http://blog.exavalon.tk/2020/08/13/yong-hui-vscode-xie-latex-liao/</id>
     <published>2020-08-13T10:07:27.000Z</published>
     <updated>2020-08-13T15:19:03.448Z</updated>
     
@@ -34,21 +34,21 @@
     
     
     
-    <category term="嗑研" scheme="https://github.com/zipeilee/categories/%E5%97%91%E7%A0%94/"/>
+    <category term="嗑研" scheme="http://blog.exavalon.tk/categories/%E5%97%91%E7%A0%94/"/>
     
     
-    <category term="LaTeX" scheme="https://github.com/zipeilee/tags/LaTeX/"/>
+    <category term="LaTeX" scheme="http://blog.exavalon.tk/tags/LaTeX/"/>
     
-    <category term="vscode" scheme="https://github.com/zipeilee/tags/vscode/"/>
+    <category term="vscode" scheme="http://blog.exavalon.tk/tags/vscode/"/>
     
-    <category term="开发环境" scheme="https://github.com/zipeilee/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <category term="开发环境" scheme="http://blog.exavalon.tk/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
     
   </entry>
   
   <entry>
     <title>给科研工作者们的简短python入门教程</title>
-    <link href="https://github.com/zipeilee/2020/08/11/gei-ke-yan-gong-zuo-zhe-men-de-jian-duan-python-ru-men-jiao-cheng/"/>
-    <id>https://github.com/zipeilee/2020/08/11/gei-ke-yan-gong-zuo-zhe-men-de-jian-duan-python-ru-men-jiao-cheng/</id>
+    <link href="http://blog.exavalon.tk/2020/08/11/gei-ke-yan-gong-zuo-zhe-men-de-jian-duan-python-ru-men-jiao-cheng/"/>
+    <id>http://blog.exavalon.tk/2020/08/11/gei-ke-yan-gong-zuo-zhe-men-de-jian-duan-python-ru-men-jiao-cheng/</id>
     <published>2020-08-11T10:53:05.000Z</published>
     <updated>2020-08-11T12:39:12.741Z</updated>
     
@@ -63,19 +63,19 @@
     
     
     
-    <category term="磕盐" scheme="https://github.com/zipeilee/categories/%E7%A3%95%E7%9B%90/"/>
+    <category term="磕盐" scheme="http://blog.exavalon.tk/categories/%E7%A3%95%E7%9B%90/"/>
     
     
-    <category term="python" scheme="https://github.com/zipeilee/tags/python/"/>
+    <category term="python" scheme="http://blog.exavalon.tk/tags/python/"/>
     
-    <category term="jupyter notebook" scheme="https://github.com/zipeilee/tags/jupyter-notebook/"/>
+    <category term="jupyter notebook" scheme="http://blog.exavalon.tk/tags/jupyter-notebook/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://github.com/zipeilee/2020/08/11/hello-world/"/>
-    <id>https://github.com/zipeilee/2020/08/11/hello-world/</id>
+    <link href="http://blog.exavalon.tk/2020/08/11/hello-world/"/>
+    <id>http://blog.exavalon.tk/2020/08/11/hello-world/</id>
     <published>2020-08-11T07:45:12.316Z</published>
     <updated>2020-08-11T08:39:01.840Z</updated>
     
