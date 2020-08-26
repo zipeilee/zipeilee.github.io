@@ -1,91 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Avalon</title>
+  <title>{{ config.title }}</title>
   
-  <subtitle>遗世独立的理想乡</subtitle>
-  <link href="http://blog.exavalon.tk/atom.xml" rel="self"/>
+  <subtitle>{{ config.subtitle }}</subtitle>
+  <link href="{{ feed_url | uriencode }}" rel="self"/>
   
-  <link href="http://blog.exavalon.tk/"/>
-  <updated>2020-08-25T10:58:32.454Z</updated>
-  <id>http://blog.exavalon.tk/</id>
+  <link href="{{ url | uriencode }}"/>
+  <updated>{{ posts.first().updated.toISOString() }}</updated>
+  <id>{{ url | uriencode }}</id>
   
   <author>
-    <name>子佩</name>
+    <name>{{ config.author }}</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>终于用回vscode写LaTeX了</title>
-    <link href="http://blog.exavalon.tk/2020/08/13/yong-hui-vscode-xie-latex-liao/"/>
-    <id>http://blog.exavalon.tk/2020/08/13/yong-hui-vscode-xie-latex-liao/</id>
-    <published>2020-08-13T10:07:27.000Z</published>
-    <updated>2020-08-25T10:58:32.454Z</updated>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;导语&quot;&gt;&lt;a href=&quot;#导语&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">{{ short_content.substring(0, delim_pos) }}</summary>
         
       
     
     
     
-    <category term="嗑研" scheme="http://blog.exavalon.tk/categories/%E5%97%91%E7%A0%94/"/>
+    <category term="{{ category.name }}" scheme="{{ category.permalink }}"/>
     
     
-    <category term="LaTeX" scheme="http://blog.exavalon.tk/tags/LaTeX/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
-    <category term="vscode" scheme="http://blog.exavalon.tk/tags/vscode/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
-    <category term="开发环境" scheme="http://blog.exavalon.tk/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
   </entry>
   
   <entry>
-    <title>给科研工作者们的简短python入门教程</title>
-    <link href="http://blog.exavalon.tk/2020/08/11/gei-ke-yan-gong-zuo-zhe-men-de-jian-duan-python-ru-men-jiao-cheng/"/>
-    <id>http://blog.exavalon.tk/2020/08/11/gei-ke-yan-gong-zuo-zhe-men-de-jian-duan-python-ru-men-jiao-cheng/</id>
-    <published>2020-08-11T10:53:05.000Z</published>
-    <updated>2020-08-11T12:39:12.741Z</updated>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;导语&quot;&gt;&lt;a href=&quot;#导语&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">{{ short_content.substring(0, delim_pos) }}</summary>
         
       
     
     
     
-    <category term="磕盐" scheme="http://blog.exavalon.tk/categories/%E7%A3%95%E7%9B%90/"/>
+    <category term="{{ category.name }}" scheme="{{ category.permalink }}"/>
     
     
-    <category term="python" scheme="http://blog.exavalon.tk/tags/python/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
-    <category term="jupyter notebook" scheme="http://blog.exavalon.tk/tags/jupyter-notebook/"/>
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
+    
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://blog.exavalon.tk/2020/08/11/hello-world/"/>
-    <id>http://blog.exavalon.tk/2020/08/11/hello-world/</id>
-    <published>2020-08-11T07:45:12.316Z</published>
-    <updated>2020-08-11T08:39:01.840Z</updated>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;重新出发&lt;/p&gt;
-</summary>
+    <summary type="html">{{ short_content.substring(0, delim_pos) }}</summary>
+        
+      
+    
+    
+    
+    <category term="{{ category.name }}" scheme="{{ category.permalink }}"/>
+    
+    
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
+    
+    <category term="{{ tag.name }}" scheme="{{ tag.permalink }}"/>
+    
+  </entry>
+  
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.permalink | uriencode }}"/>
+    <id>{{ post.permalink | uriencode }}</id>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.updated.toISOString() }}</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">{{ short_content }}</summary>
         
       
     
