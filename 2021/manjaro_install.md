@@ -92,7 +92,7 @@ tips：rime默认的朙月拼音是繁体，在输入界面按F4可以选简体�
 ## 开始折腾
 ### 科学上网
 科学上网方法千千万，我选v2ray.
-v2ray的使用参考prjetcV上的[新手上路](https://www.v2fly.org/guide/start.html#%E5%AE%A2%E6%88%B7%E7%AB%AF)教程。
+v2ray的使用参考projetcV上的[新手上路](https://www.v2fly.org/guide/start.html#%E5%AE%A2%E6%88%B7%E7%AB%AF)教程。
 
 配置好了之后，使用[systemed](https://wiki.archlinux.org/title/Systemd)管理v2ray进程，常用命令：
 ```bash
